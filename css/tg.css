@@ -1,0 +1,36 @@
+
+
+.photoContainer {
+    background-color: #5a5a5a;
+    margin-bottom: 15px;
+    height: 180px;
+    position:absolute clearfix();
+}
+
+.h1photo {
+    color: #fff;
+    padding: 60px 0px 0px 180px;
+}
+
+.profilePicThumb {   
+    background: rgba(0, 0, 0, .3);
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .07);
+    display: block;
+    left: 10px;
+    /*margin-top: -121px ; */
+    padding: 0px;
+    position: absolute;
+    
+}
+
+.profilePic {
+    background-color: #FFF;
+    border: 4px solid #FFF;
+    -webkit-border-radius: 3px;
+    box-shadow: 5px 5px 3px #888;
+    height: 160px;
+    width: 160px;
+}
+
+
