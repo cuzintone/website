@@ -1,3 +1,40 @@
  
-@import url(http://fonts.googleapis.com/css?family=Share);
+@import url(http://fonts.googleapis.com/css?family=Share); /* font-family: 'Share', Arial, "Helvetica", sans-serif; */
+@import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise); /* font-family: 'Waiting for the Sunrise', cursive; */
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two); /* font-family: 'Shadows Into Light Two', cursive; */
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans); /* font-family: 'Quattrocento Sans', sans-serif; */
 
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color: rgb(51, 51, 51);
+}
+
+h1 h2 h3 {
+    font-family: 'Share', Arial, "Helvetica", sans-serif;
+
+}
+
+
+table {
+  font-family: 'Quattrocento Sans', sans-serif;  
+}
