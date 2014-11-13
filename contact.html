@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
         <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/tg.css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -90,8 +90,9 @@
                         <!-- Text input-->
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="emailaddress">Email Address</label>  
-                            <div class="col-md-4">
-                                <input id="emailaddress" name="emailaddress" type="text" placeholder="you@me.com" class="form-control input-md" required="">
+                            <div class="col-md-4"><div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                                <input id="emailaddress" name="emailaddress" type="text" placeholder="you@me.com" class="form-control input-md" required=""></div>
                                 <span class="help-block">help</span>  
                             </div>
                         </div>
@@ -111,12 +112,8 @@
             </section>
             
             <!-- Social Media links -->
-            <div class="row">
-                <div class="col-md-4">&nbsp;</div>
-                <div class="col-md-4">
-                    <h3><a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a></h3>
-                </div>
+            <div id="social" class="row">
+                   
             </div> <!-- row -->
         </div> <!-- container -->
     </body>
