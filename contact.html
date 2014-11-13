@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/tg.css" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+        
+        <!--[if lt IE 8]>
+        <style type="text/css">
+        #container{top:50%}
+        #inner{top:-50%;position:relative;}
+        </style>
+        <![endif]-->
+
+        <!--[if IE 7]>
+        <style type="text/css">
+        #outer{
+        position:relative;
+        overflow:hidden;
+        }
+        </style>
+        <![endif]-->
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="navbar navbar-inverse" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="collapse navbar-collapse masthead" id="bs-navbar-collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="aboutme.html">About</a></li>
+                                        <li class="active"><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div> <!-- collapse navbar -->  
+                            </div> <!-- col -->
+                        </div> <!-- row -->  
+                    </div> <!-- container -->
+                </div> <!-- navbar -->
+            </nav>
+        </header>
+        
+        <!-- form content -->
+        <div class="container">
+            <section>
+
+                <form class="form-horizontal">
+                    <fieldset>
+
+                        <!-- Form Name -->
+                        <legend>Contact Us</legend>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="firstname">First Name</label>  
+                            <div class="col-md-4">
+                                <input id="firstname" name="firstname" type="text" placeholder="placeholder" class="form-control input-md" required="">
+                                <span class="help-block">Enter your first name here</span>  
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="lastname">Last Name</label>  
+                            <div class="col-md-4">
+                                <input id="lastname" name="lastname" type="text" placeholder="placeholder" class="form-control input-md">
+                                <span class="help-block">Enter your last name</span>  
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="emailaddress">Email Address</label>  
+                            <div class="col-md-4">
+                                <input id="emailaddress" name="emailaddress" type="text" placeholder="you@me.com" class="form-control input-md" required="">
+                                <span class="help-block">help</span>  
+                            </div>
+                        </div>
+
+                        <!-- Button (Double) -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="submit"></label>
+                            <div class="col-md-8">
+                                <button id="submit" name="submit" class="btn btn-success">Submit </button>
+                                <button id="cancel" name="cancel" class="btn btn-inverse">Cancel</button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+            </section>
+            
+            <!-- Social Media links -->
+            <div class="row">
+                <div class="col-md-4">&nbsp;</div>
+                <div class="col-md-4">
+                    <h3><a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a></h3>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </body>
+</html>

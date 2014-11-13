@@ -3,6 +3,10 @@ body {
   font-size: 11pt;
 }
 
+legend {
+    color: #fff;
+}
+
 .photoContainer {
     background-color: #5a5a5a;
     margin-bottom: 15px;
