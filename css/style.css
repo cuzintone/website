@@ -25,16 +25,16 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family: 'Quattrocento Sans', sans-serif;
+/*  font-family: 'Quattrocento Sans', sans-serif;*/
   background-color: rgb(51, 51, 51);
 }
 
 h1 h2 h3 {
-    font-family: 'Share', Arial, "Helvetica", sans-serif;
+/*    font-family: 'Share', Arial, "Helvetica", sans-serif;*/
 
 }
 
 
 table {
-  font-family: 'Quattrocento Sans', sans-serif;  
+/*  font-family: 'Quattrocento Sans', sans-serif;  */
 }

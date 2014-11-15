@@ -9,6 +9,8 @@
         <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/tg.css">
+        <link rel="stylesheet" href="css/video.css">
+    
 
         <!-- Link in Javascript for Bootstrap, JQuery -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -17,5 +19,72 @@
     </head>
     
     <body>
+        <header>
+            <nav>
+                <div class="navbar navbar-inverse" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="collapse navbar-collapse masthead" id="bs-navbar-collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="aboutme.html">About</a></li>
+                                        <li class="active"><a href="#">Video</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>    
+                        </div>
+                        </div>    
+                    </div> 
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <section>
+                <div class="row">
+                    <h2>Video Clips</h2>
+                    <p class="lead">Video footage of Antony doing his thing musically, enjoy!</p>
+                </div>
+            </section>
+            <section><!-- video clips from YouTube -->
+                <div class="row"> <!-- first row of videos -->
+                    <div class="col-md-4">
+                        <div class="videoWrapper">
+                            <!-- video from YouTube -->
+                            <iframe width="420" height="315" src="//www.youtube.com/embed/Yd0kV33L84E" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <p>Antony Gordon with BW3 at the 1917 American Bistro, with a jazzy version of 
+                            People Make The World Go 'Round, originally recorded by The Stylistics</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="videoWrapper">
+                            <!-- video from YouTube -->
+                            <iframe width="420" height="315" src="//www.youtube.com/embed/flMUXrTVoak" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <p>Antony Gordon with Lin Rountree at the Gallery Suite Jazz Series with a jazz/funk version of
+                           Got Till It's Gone, originally recorded by Joni Mitchell
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="videoWrapper">
+                            <!-- video from YouTube -->
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/a9SmS57xIUs" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <p>Antony Gordon with the B. Williams Experiment on Fox 2 News (Local Fox affiliate)</p>
+                    </div>
+                </div>
+            </section>
+        </div>    
+        <footer>
+            <p>Copyright &copy; 2014 ToneDef Music, LLC</p>
+        </footer>
     </body>
 </html>
