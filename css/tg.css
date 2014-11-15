@@ -3,6 +3,10 @@ body {
   font-size: 11pt;
 }
 
+body > row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 legend {
     color: #fff;
 }
@@ -42,8 +46,4 @@ legend {
 
 .masthead {
     float: right;
-}
-
-#social > a {
-    color: #f5f5f5;
 }
