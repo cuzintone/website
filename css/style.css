@@ -41,12 +41,14 @@ table {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -60px;
+/*    margin: 0 auto -60px;*/
+    position:relative;
 }
 
 #push,
 #footer {
     height: 60px;
+    position: relative;
 }
 
 @media (max-width: 767px) {
