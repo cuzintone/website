@@ -9,10 +9,8 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/tg.css" rel="stylesheet">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
         
+
         <!--[if lt IE 8]>
         <style type="text/css">
         #container{top:50%}
@@ -31,37 +29,39 @@
     </head>
 
     <body>
+
         <header>
-            <nav>
-                <div class="navbar navbar-inverse" role="navigation">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-9">
-                                <div class="collapse navbar-collapse masthead" id="bs-navbar-collapse">
-                                    <ul class="nav navbar-nav">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="aboutme.html">About</a></li>
-                                        <li><a href="media.html">Video</a></li>
-                                        <li class="active"><a href="#">Contact Us</a></li>
-                                    </ul>
-                                </div> <!-- collapse navbar -->  
-                            </div> <!-- col -->
-                        </div> <!-- row -->  
-                    </div> <!-- container -->
-                </div> <!-- navbar -->
-            </nav>
+        <nav>
+            <div class="navbar navbar-inverse" role="navigation">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="row">
+            <div class="col-md-9">
+                <div class="collapse navbar-collapse masthead" id="bs-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About</a></li>
+                        <li><a href="media.html">Video</a></li>
+                        <li class="active"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div> <!-- collapse navbar -->  
+            </div> <!-- col -->
+            </div> <!-- row -->  
+            </div> <!-- container -->
+            </div> <!-- navbar -->
+        </nav>
         </header>
-        
+
         <!-- form content -->
-        <div class="container">
+        <div id="wrap">
+            <div class="container">
             <section>
 
                 <form class="form-horizontal">
@@ -94,7 +94,7 @@
                             <div class="col-md-4"><div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
                                 <input id="emailaddress" name="emailaddress" type="text" placeholder="you@me.com" class="form-control input-md" required=""></div>
-                                <span class="help-block">help</span>  
+                                <span class="help-block">Enter email address</span>  
                             </div>
                         </div>
 
@@ -106,20 +106,22 @@
                                 <button id="cancel" name="cancel" class="btn btn-inverse">Cancel</button>
                             </div>
                         </div>
-
                     </fieldset>
                 </form>
-
             </section>
-            
-            <!-- Social Media links -->
-            <div id="social" class="row">
-                   
-            </div> <!-- row -->
-        </div> <!-- container -->
-        <footer>
-            <p>Copyright &copy; 2014 ToneDef Music, LLC</p>
-        </footer>
-    
+             <!-- row -->
+            </div> <!-- container -->
+        </div>
+        <div id="footer">
+            <div class="container">    
+                <footer>
+                    <p class="text-muted text-center">Copyright &copy; 2014 ToneDef Music, LLC</p>
+                </footer>
+            </div>
+        </div>    
     </body>
 </html>
+
+<!-- Load Javascript at the end for better performance -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
