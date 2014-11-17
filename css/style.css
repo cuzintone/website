@@ -1,9 +1,5 @@
- 
-@import url(http://fonts.googleapis.com/css?family=Share:400,400italic,700,700italic); /* font-family: 'Share', Arial, "Helvetica", sans-serif; */
-@import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise); /* font-family: 'Waiting for the Sunrise', cursive; */
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two); /* font-family: 'Shadows Into Light Two', cursive; */
-@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans); /* font-family: 'Quattrocento Sans', sans-serif; */
-
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700); /* font-family: 'Quattrocento Sans', sans-serif; */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700); /* font-family: 'Open Sans', sans-serif; */
 /*
  * Globals
  */
@@ -25,18 +21,20 @@ a:hover {
 html,
 body {
   height: 100%;
-/*  font-family: 'Quattrocento Sans', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   background-color: rgb(51, 51, 51);
 }
 
 h1 h2 h3 {
-/*    font-family: 'Share', Arial, "Helvetica", sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 
 table {
-/*  font-family: 'Quattrocento Sans', sans-serif;  */
+  font-family: 'Quattrocento Sans', sans-serif; 
+  font-weight: 400;
 }
 
 #wrap {
