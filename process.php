@@ -30,7 +30,7 @@ if( isset($_POST) ){
     
     if (empty($email)) {
         $formok = false;
-    $errors[] = "You have not entered an email address";
+    	  $errors[] = "You have not entered an email address";
     //validate email address is valid
     } elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
         $formok = false;
