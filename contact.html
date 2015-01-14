@@ -63,8 +63,11 @@
         <!-- form content -->
             <div class="container">
             <section>
-
-                <form class="form-horizontal">
+                <ul id="errors" class="">
+                    <li id="info">There were some problems with your form submission</li>
+                </ul>
+                <p id="success">Thanks for your message! We will get back to you.</p>
+                <form class="form-horizontal" method="post" action="process.php">
                     <fieldset>
 
                         <!-- Form Name -->
@@ -74,7 +77,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="firstname">First Name</label>  
                             <div class="col-md-4">
-                                <input id="firstname" name="firstname" type="text" placeholder="placeholder" class="form-control input-md" required="">
+                                <input id="firstname" name="firstname" type="text" placeholder="John" class="form-control input-md" required="">
                                 <span class="help-block">Enter your first name here</span>  
                             </div>
                         </div>
@@ -83,7 +86,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="lastname">Last Name</label>  
                             <div class="col-md-4">
-                                <input id="lastname" name="lastname" type="text" placeholder="placeholder" class="form-control input-md">
+                                <input id="lastname" name="lastname" type="text" placeholder="Doe" class="form-control input-md">
                                 <span class="help-block">Enter your last name</span>  
                             </div>
                         </div>
@@ -93,7 +96,7 @@
                             <label class="col-md-4 control-label" for="emailaddress">Email Address</label>  
                             <div class="col-md-4"><div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-                                <input id="emailaddress" name="emailaddress" type="text" placeholder="you@me.com" class="form-control input-md" required=""></div>
+                                <input id="emailaddress" name="emailaddress" type="text" placeholder="you@me.com" class="form-control input-md" required="required"></div>
                                 <span class="help-block">Enter email address</span>  
                             </div>
                         </div>
@@ -102,7 +105,7 @@
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="submit"></label>
                             <div class="col-md-8">
-                                <button id="submit" name="submit" class="btn btn-success">Submit </button>
+                                <button id="submit" name="submit" class="btn btn-success">Submit</button>
                                 <button id="cancel" name="cancel" class="btn btn-inverse">Cancel</button>
                             </div>
                         </div>
@@ -118,8 +121,8 @@
                     </div>
                 </footer>
         <!-- Load Javascript at the end for better performance -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     </body>
 </html>
 
